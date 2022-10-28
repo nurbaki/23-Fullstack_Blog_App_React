@@ -14,7 +14,7 @@ const Main = () => {
   }, []);
 
 const readDjangoBlog = async function(){
-    const response = await fetch("http://127.0.0.1:8000/blogapp/posts/")
+    const response = await fetch("https://nurbaki.pythonanywhere.com/blogapp/posts/")
     .then((response) => response.json())
     .then((array) => {
       setBlogsArray(array);
