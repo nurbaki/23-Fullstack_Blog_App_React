@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Nuosu+SIL&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+  margin: 0;
+}
+
+#Logo {
+  height: 100px;
+  width: 150px;
+}
+
+.about {
+  font-weight: bold;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageHeader {
+  color: #347474 !important;
+}
+
+.blogCard {
+  background-color: #a2a8d3; 
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 1rem;
+  position: relative;
+}
+
+.blogCard img {
+  object-fit: fill;
+  height: 270px;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.dashboard {
+  cursor: pointer;
+  overflow: hidden;
+  height: 9rem;
+}
+
+
+
+.icons {
+  font-size: large;
+}
+.space {
+  color: white;
+}
+
+
+.tag {
+  border-radius: 5px;
+  padding: 0.7rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 1rem 3rem;
+  /* background-color: #046582 !important; */
+  background-color: #F51720 !important;
+}
+
+.form-image {
+  min-width: 800px;
+  min-height: 800px;
+}
+
+.register-form {
+  flex: 1;
+  background-color: #eeeeee;
+  color: #000000;
+  padding: 5rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.form-label {
+  padding-left: 1.5rem;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.form-control {
+  width: 90%;
+  margin: 20px;
+}
+
+.btn-primary {
+  margin-left: 1.5rem;
+}
+
+.btn-primary img {
+  margin-left: 0.5rem;
+  padding: 5px;
+  background-color: white;
+  width: 6rem;
+}
+
+.btn-white {
+  border: yellow;
+}
+
+.link {
+  color: #0b5ed7;
+  text-decoration: underline;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.profileImage {
+  color: #0b5ed7;
+}
