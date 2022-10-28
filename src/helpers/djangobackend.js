@@ -28,7 +28,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("http://127.0.0.1:8000/blogapp/posts/", requestOptions)
+fetch("https://nurbaki.pythonanywhere.com/blogapp/posts/", requestOptions)
   .then(response => response.json())
   .then(result => {
     console.log('addBlog fonk:', result);
@@ -80,7 +80,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch(`http://127.0.0.1:8000/blogapp/posts/${id}/`, requestOptions)
+fetch(`https://nurbaki.pythonanywhere.com/posts/${id}/`, requestOptions)
   .then(response => response.json())
   .then(result => {
     console.log('addBlog fonk:', result);
@@ -117,7 +117,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch(`http://127.0.0.1:8000/blogapp/posts/${id}/`, requestOptions)
+fetch(`https://nurbaki.pythonanywhere.com/blogapp/posts/${id}/`, requestOptions)
   .then(response => response.text())
   .then(result => {
       toastSuccessNotify("Blog successfully deleted!");
@@ -158,7 +158,7 @@ export const registerDjangoUser = async (username, firstName, lastName, email, p
   redirect: 'follow'
 };
 
-fetch("http://127.0.0.1:8000/users/register/", requestOptions)
+fetch("https://nurbaki.pythonanywhere.com/users/register/", requestOptions)
   .then(response => response.json())
   .then(result => {
     console.log('registered', result);
@@ -191,7 +191,7 @@ fetch("http://127.0.0.1:8000/users/register/", requestOptions)
       redirect: 'follow'
     };
     
-    fetch("http://127.0.0.1:8000/users/auth/login/", requestOptions)
+    fetch("https://nurbaki.pythonanywhere.com/users/auth/login/", requestOptions)
       .then(response => response.json())
       .then(result => {
         if (result.key) {
@@ -220,7 +220,7 @@ fetch("http://127.0.0.1:8000/users/register/", requestOptions)
   redirect: 'follow'
   };
 
-  fetch("http://127.0.0.1:8000/users/auth/logout/", requestOptions)
+  fetch("https://nurbaki.pythonanywhere.com/users/auth/logout/", requestOptions)
   .then(response => response.text())
   .then(result => {
     console.log('logout', result);
