@@ -13,3 +13,4 @@ Some of the functions and React hooks I used while developing the project are as
 - Fetch Methods,
 - useState, useEffect, useContext.
 
+Nurbaki Bayansal
